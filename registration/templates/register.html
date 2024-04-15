@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+{% extends 'base.html' %}
+
+
+{% block content %}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous">
-</head>
-<body>
-<div class="mt-9 container p-1 bg-primary" >
+<style>
+</style>
+
+
+<div class="bg-image back.png mt-9 container p-4">
+<div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">register</h5>
             <forms class=" row container">
                 <div class="col-sm-6">
                 <label>first name</label>
@@ -40,34 +46,20 @@
                 </div>
 
                 <div class="col-sm-6 p-3">
-                <button>login</button>
-                <button>sign up</button>
+                <button>register/sign up</button>
                 </div>
             </forms>
+         </div>
+      </div>
+    </div>
+  </div>
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% endblock %}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-</body>
-</html>
 
 
 
