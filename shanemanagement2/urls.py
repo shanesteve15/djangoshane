@@ -19,9 +19,9 @@ from django.urls import include, path
 #locallost:8000/login/login
 
 urlpatterns = [
-    path('registration/', include('registration.urls')),
     path('register/', include('registration.urls')),
-    path('home/', include('registration.urls')),
+    path('register/', include('registration.urls')),
+    path('', include('registration.urls')),
     path('login/', include('registration.urls')),
     path('admin/', admin.site.urls),
 
